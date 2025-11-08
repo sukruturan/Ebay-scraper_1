@@ -25,5 +25,10 @@ It is designed to be **modular, reusable, and easy to adapt** to any product cat
 
 Install dependencies:
 
-```bash
+``bash
 pip install requests beautifulsoup4 pandas
+### 🎥 Demo Video
+
+Ebay Scraper How its work???  
+**Video:** https://www.youtube.com/watch?v=huzR2FCrOfQ
+
