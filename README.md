@@ -1,28 +1,29 @@
-# Zillow Real Estate Data Scraper 🏡
+# Ebay Product Price Scraper 🛒  
+**Python + Requests + BeautifulSoup + Pandas**
 
-This project scrapes real estate listing data from Zillow, cleans it, and prepares it for market price analysis.
+This project scrapes product listing data from **Ebay**, cleans the data, and exports it for price and market analysis.  
+It is designed to be **modular, reusable, and easy to adapt** to any product category, brand, or keyword.
 
-## Features
-- Automated data extraction (Requests / BeautifulSoup)
-- Data cleaning and normalization (Pandas)
-- Export to Excel/CSV for reporting
-- Reusable code structure for scaling to any city or region
+---
 
-## Example Use Cases
-| Use Case | Result |
-|---------|--------|
-| Price comparison between neighborhoods | Identify cheaper investment areas |
-| Airbnb / Rental pricing analysis | Estimate nightly/monthly rates |
-| Real estate flipping research | Detect undervalued properties |
+## 🔍 Features
 
-## Files in This Project
-| File | Purpose |
-|------|---------|
-| `zillow_scraper.py` | Main scraper script |
-| `zillow_scraper_clean.py` | Clean & processed version |
-| `zillow_data.xlsx` | Exported example dataset |
+- Automated product data extraction from Ebay
+- Collects:
+  - Product Name
+  - Price
+  - Condition (New/Used)
+  - Item URL
+- Data cleaning and normalization using **Pandas**
+- Export results to **CSV / Excel**
+- Reusable code structure for any Ebay keyword search
+- No API required (HTML parsing only)
 
-## How to Run
+---
+
+## 📦 Requirements
+
+Install dependencies:
+
 ```bash
-pip install -r requirements.txt
-python zillow_scraper.py
+pip install requests beautifulsoup4 pandas
